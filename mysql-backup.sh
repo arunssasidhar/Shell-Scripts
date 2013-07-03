@@ -22,6 +22,7 @@ MySQL_HOST="localhost"
 
 # Pipe seperated list of DBs to be excluded from the backup.
 # Do Not Remove test DB name from exclude list.
+# Eg: EXCLUDE_DBS="test|my_BIG_DB"
 EXCLUDE_DBS="test" 
 
 # Directory Location where DB backups are stored.
